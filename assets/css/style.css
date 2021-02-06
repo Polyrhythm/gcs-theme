@@ -126,7 +126,7 @@ html {
 }
 
 body {
-	background: #f5efe0;
+	background: #eee8d6;
 	box-sizing: border-box;
 	color: #000;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
@@ -2571,7 +2571,8 @@ h2.entry-title {
 
 .singular .featured-media-inner {
 	position: relative;
-	left: calc(50% - 50vw);
+	display: flex;
+	justify-content: center;
 	width: 100vw;
 }
 
